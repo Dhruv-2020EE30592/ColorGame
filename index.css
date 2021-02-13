@@ -12,9 +12,25 @@
   align-items: center;
 }
 
-#container {
+.head {
+  background-color: blue;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.head-tile {
+  height: 50px;
+  width: 200px;
+  background-color:brown;
+  padding: 20px;
+}
+
+.container {
   background-color: black;
-  height: 70vh;
+  height: 30vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
